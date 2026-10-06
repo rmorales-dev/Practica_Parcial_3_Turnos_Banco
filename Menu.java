@@ -38,28 +38,27 @@ public class Menu {
                     System.out.println(m.LlamarSiguiente(cola));                   
                     break;
                 case 4:
-                    System.out.println("En construccion");                    
+                    System.out.println(m.Atender(cola));                  
                     break;
                 case 5:
-                    System.out.println("En construccion");
+                    System.out.println(m.CambiarAPreferencial(cola, sc, v));
                     break;
                 case 6:
-                    System.out.println("En construccion");
+                    System.out.println(m.CancelarTurno(cola, sc, v));
                     break;
                 case 7:
-                    System.out.println("En construccion");
+                    System.out.println(m.BuscarCliente(cola, sc, v));
                     break;
                 case 8:
-                    System.out.println("En construccion");
+                    System.out.println(m.ConsultarPersonasEsperando(cola));
                     break;
                 case 9:
-                    System.out.println("En construccion");
+                    System.out.println(m.MostrarPendientesPorTipo(cola));
                     break;                                      
                 case 10:
                     System.out.println("Hasta luego");
                     continuar = false;
                     break;
-
                 default:
                     System.out.println("esta opcion no existe");
                     break;
